@@ -1,0 +1,83 @@
+# Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
+project_name: zigbee_ncp
+label: Zigbee - NCP
+author: Nabu Casa
+description: Zigbee NCP firmware. Derived from the `ncp-uart-hw` example Gecko SDK
+  project.
+category: Zigbee Application
+filter:
+- name: Device Type
+  value: [NCP]
+- name: Project Difficulty
+  value: [Advanced]
+- name: Wireless Technology
+  value: [Zigbee]
+package: Zigbee
+quality: production
+source:
+- {path: main.c}
+- {path: app.c}
+sdk: {id: gecko_sdk, version: 4.4.6}
+toolchain_settings: []
+component:
+- {id: EFR32MG1B232F256GM32}
+- instance: [vcom]
+  id: iostream_usart
+- {id: iostream_vuart}
+- {id: rail_util_rssi}
+- {id: token_manager}
+- {id: zigbee_app_framework_common}
+- {id: zigbee_debug_basic}
+- {id: zigbee_debug_extended}
+- {id: zigbee_debug_print}
+- {id: zigbee_gp}
+- {id: zigbee_mfglib}
+- {id: zigbee_ncp_uart_hardware}
+- {id: zigbee_pro_stack}
+- {id: zigbee_r22_support}
+- {id: zigbee_security_link_keys}
+- {id: zigbee_source_route}
+- {id: zigbee_token_interface}
+- {id: zigbee_xncp}
+- {id: zigbee_zll}
+define:
+- {name: EMBER_CUSTOM_MAC_FILTER_TABLE_SIZE, value: '15'}
+- {name: EMBER_APS_UNICAST_MESSAGE_COUNT, value: '32'}
+- {name: EMBER_BINDING_TABLE_SIZE, value: '32'}
+- {name: EMBER_BROADCAST_TABLE_SIZE, value: '64'}
+- {name: EMBER_KEY_TABLE_SIZE, value: '12'}
+- {name: EMBER_MAX_END_DEVICE_CHILDREN, value: '32'}
+- {name: EMBER_PACKET_BUFFER_COUNT, value: '255'}
+- {name: EMBER_SOURCE_ROUTE_TABLE_SIZE, value: '200'}
+- {name: SL_IOSTREAM_USART_VCOM_BAUDRATE, value: '115200'}
+- {name: SL_IOSTREAM_USART_VCOM_PERIPHERAL_NO, value: '0'}
+- {name: SL_IOSTREAM_USART_VCOM_PERIPHERAL, value: USART0}
+- {name: SL_IOSTREAM_USART_VCOM_TX_PORT, value: gpioPortC}
+- {name: SL_IOSTREAM_USART_VCOM_TX_PIN, value: '11'}
+- {name: SL_IOSTREAM_USART_VCOM_TX_LOC, value: '16'}
+- {name: SL_IOSTREAM_USART_VCOM_RX_PORT, value: gpioPortC}
+- {name: SL_IOSTREAM_USART_VCOM_RX_PIN, value: '10'}
+- {name: SL_IOSTREAM_USART_VCOM_RX_LOC, value: '14'}
+config_file:
+- {path: config/xncp_config.h}
+template_contribution:
+- name: zigbee_stack_callback
+  priority: -9999
+  value: {callback_type: override_append_source_route, function_name: nc_zigbee_override_append_source_route}
+configuration:
+- {name: SL_CLI_MAX_INPUT_ARGUMENTS, value: '16'}
+- {name: SL_BOARD_ENABLE_VCOM, value: '1'}
+- {name: SL_IOSTREAM_USART_VCOM_FLOW_CONTROL_TYPE, value: usartHwFlowControlCtsAndRts}
+- {name: SL_CLI_EXAMPLE_IOSTREAM_HANDLE, value: sl_iostream_vuart_handle}
+- condition: [device_series_1]
+  name: NVM3_DEFAULT_NVM_SIZE
+  value: '36864'
+- condition: [device_series_2]
+  name: NVM3_DEFAULT_NVM_SIZE
+  value: '32768'
+- {name: SL_PSA_ITS_SUPPORT_V1_DRIVER, value: '0'}
+- {name: SL_PSA_ITS_SUPPORT_V2_DRIVER, value: '0'}
+- {name: SL_PSA_ITS_SUPPORT_V3_DRIVER, value: '1'}
+- {name: EMBER_AF_PLUGIN_PACKET_HANDOFF_ALLOW_ALL_PACKETS, value: '1'}
+ui_hints: {}
+

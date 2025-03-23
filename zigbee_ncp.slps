@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="zigbee_ncp">
+    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.4.6._448430041"/>
+    <properties key="universalConfig.relativeWorkspacePath" value="..\zigbee_ncp.slcw"/>
+    <properties key="universalConfig.generationDirectory" value="..\..\zigbee_ncp"/>
+    <properties key="universalConfig.toolchainCompatibility" value="iar gcc"/>
+    <properties key="projectCommon.partId" value="efr32mg1b232f256gm32"/>
+    <properties key="projectCommon.toolchainLocations" value="{&quot;toolchainLocations&quot;:{&quot;C&quot;:&quot;file:///K:/SiliconLabs/SimplicityStudio/v5/developer/toolchains/gnu_arm/12.2.rel1_2023.7&quot;},&quot;use&quot;:true}"/>
+    <properties key="projectCommon.overwriteCopiedSources" value="false"/>
+    <properties key="projectCommon.importModeId" value="LINK_LIBRARIES"/>
+  </descriptors>
+</model:MDescriptors>

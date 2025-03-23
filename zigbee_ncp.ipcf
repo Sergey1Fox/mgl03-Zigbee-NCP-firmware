@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iarProjectConnection name="Simplicity Configurator" version="1.8">
+  <files>
+    <group name="config">
+      <path>config\sl_memory_config.h</path>
+      <path>config\sl_iostream_usart_vcom_config.h</path>
+      <path>config\sl_zigbee_debug_print_config.h</path>
+      <path>config\sl_iostream_vuart_config.h</path>
+      <path>config\sl_token_manager_config.h</path>
+      <path>config\sl_custom_token_header.h</path>
+      <path>config\sl_custom_manufacturing_token_header.h</path>
+      <path>config\sl_zigbee_pro_stack_config.h</path>
+      <path>config\sl_zigbee_source_route_config.h</path>
+      <path>config\sl_zigbee_green_power_config.h</path>
+      <path>config\sl_zigbee_security_link_keys_config.h</path>
+      <path>config\sl_zigbee_light_link_config.h</path>
+      <path>config\zigbee_sleep_config.h</path>
+      <path>config\sl_rail_util_rssi_config.h</path>
+      <path>config\SEGGER_RTT_Conf.h</path>
+      <path>config\nvm3_default_config.h</path>
+      <path>config\sl_debug_swo_config.h</path>
+      <path>config\dmadrv_config.h</path>
+      <path>config\emlib_core_debug_config.h</path>
+      <path>config\sl_power_manager_config.h</path>
+      <path>config\psa_crypto_config.h</path>
+      <path>config\sl_device_init_dcdc_config.h</path>
+      <path>config\sl_legacy_hal_wdog_config.h</path>
+      <path>config\sl_rail_util_pti_config.h</path>
+      <path>config\app_properties_config.h</path>
+      <path>config\sl_device_init_emu_config.h</path>
+      <path>config\tempdrv_config.h</path>
+      <path>config\legacy_hal_config.h</path>
+      <path>config\sl_rail_util_power_manager_init_config.h</path>
+      <path>config\sl_device_init_hfxo_config.h</path>
+      <path>config\sl_rail_util_pa_config.h</path>
+      <path>config\btl_interface_cfg.h</path>
+      <path>config\sl_sleeptimer_config.h</path>
+      <path>config\sl_mbedtls_config.h</path>
+      <path>config\sl_mbedtls_device_config.h</path>
+      <path>config\legacy_common_ash_config.h</path>
+      <path>config\xncp_config.h</path>
+    </group>
+    <group name="autogen">
+      <group name=".slc_state">
+        <path>autogen\.slc_state\.crc_config.crc</path>
+      </group>
+      <path>autogen\sl_application_type.h</path>
+      <path>autogen\RTE_Components.h</path>
+      <path>autogen\sl_component_catalog.h</path>
+      <path>autogen\sl_device_init_clocks.c</path>
+      <path>autogen\sl_event_handler.h</path>
+      <path>autogen\sl_event_handler.c</path>
+      <path>autogen\sl_iostream_handles.h</path>
+      <path>autogen\sl_iostream_handles.c</path>
+      <path>autogen\sl_iostream_init_instances.h</path>
+      <path>autogen\sl_iostream_init_usart_instances.c</path>
+      <path>autogen\sl_iostream_init_usart_instances.h</path>
+      <path>autogen\sli_mbedtls_config_autogen.h</path>
+      <path>autogen\sli_mbedtls_config_transform_autogen.h</path>
+      <path>autogen\sl_power_manager_handler.c</path>
+      <path>autogen\sli_psa_config_autogen.h</path>
+      <path>autogen\sli_psa_builtin_config_autogen.h</path>
+      <path>autogen\sl_rail_util_ieee802154_phy_select.c</path>
+      <path>autogen\sl_rail_util_ieee802154_stack_event.c</path>
+      <path>autogen\linkerfile.icf</path>
+      <path>autogen\zigbee_stack_callback_dispatcher.h</path>
+      <path>autogen\zigbee_stack_callback_dispatcher.c</path>
+      <path>autogen\zigbee_common_callback_dispatcher.h</path>
+      <path>autogen\zigbee_common_callback_dispatcher.c</path>
+      <path>autogen\zigbee_ncp_callback_dispatcher.h</path>
+      <path>autogen\zigbee_ncp_callback_dispatcher.c</path>
+      <path>autogen\zigbee_af_token_headers.h</path>
+      <path>autogen\gen.properties</path>
+    </group>
+    <group name="gecko_sdk_4.4.6">
+      <group name="platform">
+        <group name="Device">
+          <group name="SiliconLabs">
+            <group name="EFR32MG1B">
+              <group name="Source">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Source\system_efr32mg1b.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Source\startup_efr32mg1b.c</path>
+              </group>
+              <group name="Include">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b232f256gm32.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_acmp.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_adc.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_af_pins.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_af_ports.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_cmu.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_cryotimer.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_crypto.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_devinfo.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_dma_descriptor.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_dmareq.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_emu.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_fpueh.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_gpcrc.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_gpio.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_gpio_p.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_i2c.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_idac.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_ldma.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_ldma_ch.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_letimer.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_leuart.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_msc.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_pcnt.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_prs.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_prs_ch.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_prs_signals.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_rmu.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_romtable.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_rtcc.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_rtcc_cc.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_rtcc_ret.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_timer.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_timer_cc.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_usart.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_wdog.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\efr32mg1b_wdog_pch.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\em_device.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\Device\SiliconLabs\EFR32MG1B\Include\system_efr32mg1b.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="common">
+          <group name="inc">
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\inc\sl_atomic.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\inc\sl_endianness.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\inc\sl_enum.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\inc\sl_assert.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\inc\sl_common.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\inc\sl_string.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\inc\sl_slist.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\inc\sl_status.h</path>
+          </group>
+          <group name="src">
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\src\sl_assert.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\src\sl_string.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\src\sl_slist.c</path>
+          </group>
+          <group name="toolchain">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\toolchain\src\sl_memory.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\toolchain\inc\sl_memory_region.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\common\toolchain\inc\sl_memory.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="bootloader">
+          <group name="app_properties">
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\bootloader\app_properties\app_properties.c</path>
+          </group>
+          <group name="api">
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\bootloader\api\btl_interface.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\bootloader\api\btl_interface_storage.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\bootloader\api\application_properties.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\bootloader\api\btl_errorcode.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\bootloader\api\btl_interface.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\bootloader\api\btl_interface_parser.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\bootloader\api\btl_interface_storage.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\bootloader\api\btl_reset_info.h</path>
+          </group>
+        </group>
+        <group name="CMSIS">
+          <group name="Core">
+            <group name="Include">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\CMSIS\Core\Include\cmsis_compiler.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\CMSIS\Core\Include\cmsis_version.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\CMSIS\Core\Include\tz_context.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\CMSIS\Core\Include\cmsis_iccarm.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\CMSIS\Core\Include\core_cm4.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\CMSIS\Core\Include\mpu_armv7.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="driver">
+          <group name="debug">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\driver\debug\src\sl_debug_swo.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\driver\debug\inc\sl_debug_swo.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="service">
+          <group name="device_init">
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\device_init\inc\sl_device_init_clocks.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\device_init\inc\sl_device_init_dcdc.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\device_init\inc\sl_device_init_emu.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\device_init\inc\sl_device_init_hfxo.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\device_init\inc\sl_device_init_nvic.h</path>
+            </group>
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\device_init\src\sl_device_init_dcdc_s1.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\device_init\src\sl_device_init_emu_s1.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\device_init\src\sl_device_init_hfxo_s1.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\device_init\src\sl_device_init_nvic.c</path>
+            </group>
+          </group>
+          <group name="iostream">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\src\sl_iostream.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\src\sl_iostream_debug.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\src\sl_iostream_swo_itm_8.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\src\sl_iostream_uart.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\src\sl_iostream_usart.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\src\sl_iostream_vuart.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\inc\sl_iostream.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\inc\sl_iostream_debug.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\inc\sli_iostream_swo_itm_8.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\inc\sl_iostream_swo_itm_8.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\inc\sl_iostream_uart.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\inc\sli_iostream_uart.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\inc\sl_iostream_usart.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\inc\sl_iostream_vuart.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\iostream\inc\sl_iostream_swo.h</path>
+            </group>
+          </group>
+          <group name="legacy_common_ash">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_common_ash\src\ash-common.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_common_ash\inc\ash-common.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_common_ash\inc\ash-protocol.h</path>
+            </group>
+          </group>
+          <group name="legacy_hal">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\src\crc.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\src\base-replacement.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\src\diagnostic.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\src\ember-phy.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\src\faults.s</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\src\random.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\src\token_legacy.c</path>
+            </group>
+            <group name="inc">
+              <group name="serial">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\serial\serial.h</path>
+              </group>
+              <group name="cortexm3">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\cortexm3\diagnostic.h</path>
+              </group>
+              <group name="hal">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\hal\hal.h</path>
+              </group>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\asm.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\bootloader-interface.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\bootloader-interface-app.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\bootloader-eeprom.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\button.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\crc.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\efm32_micro.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\em2xx-reset-defs.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\emlib_config.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\hal.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\interrupts-efm32.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\led.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\micro-common.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\micro-types.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\micro.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\platform-header.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\random.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\reset-def.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\serial.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\token-manufacturing-series-1.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\token-manufacturing-series-2.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\token-manufacturing.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal\inc\sl_legacy_hal_integration_hooks.h</path>
+            </group>
+          </group>
+          <group name="legacy_hal_wdog">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal_wdog\src\sl_legacy_hal_wdog.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_hal_wdog\inc\sl_legacy_hal_wdog.h</path>
+            </group>
+          </group>
+          <group name="legacy_ncp_ash">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_ncp_ash\src\ash-ncp.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_ncp_ash\inc\ash-ncp.h</path>
+            </group>
+          </group>
+          <group name="legacy_printf">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_printf\src\sl_legacy_printf.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\legacy_printf\inc\sl_legacy_printf.h</path>
+            </group>
+          </group>
+          <group name="power_manager">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\power_manager\src\sl_power_manager.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\power_manager\src\sl_power_manager_debug.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\power_manager\src\sl_power_manager_hal_s0_s1.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\power_manager\src\sli_power_manager_private.h</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\power_manager\inc\sl_power_manager.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\power_manager\inc\sl_power_manager_debug.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\power_manager\inc\sli_power_manager.h</path>
+            </group>
+          </group>
+          <group name="system">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\system\src\sl_system_init.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\system\src\sl_system_process_action.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\system\inc\sl_system_init.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\system\inc\sl_system_process_action.h</path>
+            </group>
+          </group>
+          <group name="sleeptimer">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\sleeptimer\src\sl_sleeptimer.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\sleeptimer\src\sl_sleeptimer_hal_rtcc.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\sleeptimer\src\sl_sleeptimer_hal_timer.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\sleeptimer\src\sli_sleeptimer_hal.h</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\sleeptimer\inc\sl_sleeptimer.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\sleeptimer\inc\sli_sleeptimer.h</path>
+            </group>
+          </group>
+          <group name="token_manager">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\src\sl_token_def.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\src\sl_token_manager.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\src\sl_token_manufacturing.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\src\sl_token_manufacturing_generic.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\inc\sl_token_api.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\inc\sl_token_manager.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\inc\sl_token_manager_af_token_header.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\inc\sl_token_manufacturing.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\inc\sl_token_manufacturing_api.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\inc\sl_token_manufacturing_series_1.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\inc\sl_token_manufacturing_series_2.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\service\token_manager\inc\sl_token_manufacturing_generic.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="emdrv">
+          <group name="dmadrv">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\dmadrv\src\dmadrv.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\dmadrv\inc\dmadrv.h</path>
+            </group>
+          </group>
+          <group name="common">
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\common\inc\ecode.h</path>
+            </group>
+          </group>
+          <group name="nvm3">
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\nvm3\inc\nvm3_default.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\nvm3\inc\nvm3.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\nvm3\inc\nvm3_generic.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\nvm3\inc\nvm3_hal.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\nvm3\inc\nvm3_hal_flash.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\nvm3\inc\nvm3_lock.h</path>
+            </group>
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\nvm3\src\nvm3_default_common_linker.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\nvm3\src\nvm3_hal_flash.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\nvm3\src\nvm3_lock.c</path>
+            </group>
+            <group name="lib">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\nvm3\lib\libnvm3_CM4_iar.a</path>
+            </group>
+          </group>
+          <group name="tempdrv">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\tempdrv\src\tempdrv.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emdrv\tempdrv\inc\tempdrv.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="emlib">
+          <group name="inc">
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_chip.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_cmu.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_cmu_compat.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\sli_em_cmu.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_assert.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_bus.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_common.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_ramfunc.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_version.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_core.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_core_generic.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_crypto.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_crypto_compat.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_emu.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_gpio.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_ldma.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_msc.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_msc_compat.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_prs.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_rmu.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_rtcc.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_system.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_system_generic.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_timer.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_usart.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\inc\em_wdog.h</path>
+          </group>
+          <group name="src">
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_cmu.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_core.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_crypto.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_emu.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_gpio.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_ldma.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_msc.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_prs.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_rmu.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_rtcc.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_system.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_timer.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_usart.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\emlib\src\em_wdog.c</path>
+          </group>
+        </group>
+        <group name="security">
+          <group name="sl_component">
+            <group name="sl_mbedtls_support">
+              <group name="config">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_acceleration.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_omnipresent.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\config\sli_psa_acceleration.h</path>
+              </group>
+              <group name="src">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\src\sl_mbedtls.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\src\crypto_aes.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\src\mbedtls_ccm.c</path>
+              </group>
+              <group name="inc">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\inc\sl_mbedtls.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\inc\aes_alt.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\inc\ccm_alt.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\inc\cmac_alt.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\inc\sha1_alt.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\inc\sha256_alt.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\inc\sha512_alt.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\inc\gcm_alt.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_mbedtls_support\inc\sl_psa_values.h</path>
+              </group>
+            </group>
+            <group name="sl_psa_driver">
+              <group name="inc">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\inc\sli_psa_driver_features.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\inc\sli_psa_driver_common.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\inc\sli_se_version_dependencies.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\inc\crypto_management.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\inc\sli_crypto_transparent_functions.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\inc\sli_crypto_transparent_types.h</path>
+              </group>
+              <group name="src">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\src\sli_psa_driver_init.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\src\sli_psa_driver_common.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\src\sli_se_version_dependencies.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\src\crypto_management.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\src\sli_crypto_transparent_driver_cipher.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\src\sli_crypto_transparent_driver_hash.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\src\sli_crypto_transparent_driver_mac.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\security\sl_component\sl_psa_driver\src\sli_crypto_transparent_driver_aead.c</path>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="radio">
+          <group name="rail_lib">
+            <group name="common">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\common\rail.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\common\rail_mfm.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\common\rail_assert_error_codes.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\common\rail_types.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\common\rail_features.h</path>
+            </group>
+            <group name="protocol">
+              <group name="ble">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\protocol\ble\rail_ble.h</path>
+              </group>
+              <group name="ieee802154">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\protocol\ieee802154\rail_ieee802154.h</path>
+              </group>
+              <group name="wmbus">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\protocol\wmbus\rail_wmbus.h</path>
+              </group>
+              <group name="zwave">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\protocol\zwave\rail_zwave.h</path>
+              </group>
+              <group name="sidewalk">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\protocol\sidewalk\rail_sidewalk.h</path>
+              </group>
+            </group>
+            <group name="chip">
+              <group name="efr32">
+                <group name="efr32xg1x">
+                  <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\chip\efr32\efr32xg1x\rail_chip_specific.h</path>
+                </group>
+              </group>
+            </group>
+            <group name="plugin">
+              <group name="rail_util_ieee802154">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\rail_util_ieee802154\sl_rail_util_ieee802154_stack_event.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\rail_util_ieee802154\sl_rail_util_ieee802154_phy_select.h</path>
+              </group>
+              <group name="pa-conversions">
+                <group name="efr32xg1x">
+                  <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\pa-conversions\efr32xg1x\sl_rail_util_pa_curves.h</path>
+                </group>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\pa-conversions\pa_conversions_efr32.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\pa-conversions\pa_curves_efr32.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\pa-conversions\pa_conversions_efr32.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\pa-conversions\pa_curve_types_efr32.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\pa-conversions\pa_curves_efr32.h</path>
+              </group>
+              <group name="rail_util_power_manager_init">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\rail_util_power_manager_init\sl_rail_util_power_manager_init.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\rail_util_power_manager_init\sl_rail_util_power_manager_init.h</path>
+              </group>
+              <group name="rail_util_pti">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\rail_util_pti\sl_rail_util_pti.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\rail_util_pti\sl_rail_util_pti.h</path>
+              </group>
+              <group name="rail_util_rssi">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\rail_util_rssi\sl_rail_util_rssi.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\rail_util_rssi\sl_rail_util_rssi.h</path>
+              </group>
+              <group name="rail_util_ant_div">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\rail_util_ant_div\sl_rail_util_ant_div.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\rail_util_ant_div\sl_rail_util_ant_div.h</path>
+              </group>
+              <group name="coexistence">
+                <group name="protocol">
+                  <group name="ieee802154_uc">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\coexistence\protocol\ieee802154_uc\coexistence-802154.c</path>
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\coexistence\protocol\ieee802154_uc\coexistence-802154.h</path>
+                  </group>
+                </group>
+                <group name="common">
+                  <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\plugin\coexistence\common\coexistence.h</path>
+                </group>
+              </group>
+            </group>
+            <group name="autogen">
+              <group name="librail_release">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\rail_lib\autogen\librail_release\librail_efr32xg1_iar_release.a</path>
+              </group>
+            </group>
+          </group>
+          <group name="mac">
+            <group name="rail_mux">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\rail_mux\sl_rail_mux_rename.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\rail_mux\sl_rail_mux.h</path>
+            </group>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\indirect-queue.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\lower-mac.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\lower-mac-debug.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\mac-child.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\mac-command.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\mac-flat-header.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\mac-header.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\mac-packet-header.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\mac-phy.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\mac-types.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\multi-mac.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\mac-multi-network.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\scan.h</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\platform\radio\mac\upper-mac.h</path>
+          </group>
+        </group>
+      </group>
+      <group name="util">
+        <group name="third_party">
+          <group name="mbedtls">
+            <group name="library">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\aes.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\ccm.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\cipher.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\cipher_wrap.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\constant_time.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\threading.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\platform.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\platform_util.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\psa_util.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\alignment.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\bn_mul.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\base64_internal.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\bignum_core.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\bignum_mod.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\bignum_mod_raw.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\bignum_mod_raw_invasive.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\cipher_wrap.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\common.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\constant_time_impl.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\constant_time_internal.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\ecp_internal_alt.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\ecp_invasive.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\entropy_poll.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\lmots.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\md_psa.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\md_wrap.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\mps_common.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\mps_error.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\mps_reader.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\mps_trace.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\padlock.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\pk_internal.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\pk_wrap.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\pkwrite.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\psa_util_internal.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\rsa_alt_helpers.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\ssl_debug_helpers.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\ssl_client.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\ssl_misc.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\ssl_tls13_invasive.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\ssl_tls13_keys.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\library\psa_crypto_client.c</path>
+            </group>
+            <group name="include">
+              <group name="mbedtls">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\aes.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\aria.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\asn1.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\asn1write.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\base64.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\bignum.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\build_info.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\camellia.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ccm.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\chacha20.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\chachapoly.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\check_config.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\cipher.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\cmac.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\compat-2.x.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\config_adjust_legacy_crypto.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\config_adjust_legacy_from_psa.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\config_adjust_psa_from_legacy.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\config_adjust_psa_superset_legacy.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\config_adjust_ssl.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\config_adjust_x509.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\config_psa.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\constant_time.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ctr_drbg.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\debug.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\des.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\dhm.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ecdh.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ecdsa.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ecjpake.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ecp.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\entropy.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\error.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\gcm.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\hkdf.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\hmac_drbg.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\lms.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\mbedtls_config.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\md.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\md5.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\memory_buffer_alloc.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\net_sockets.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\nist_kw.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\oid.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\pem.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\pk.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\pkcs12.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\pkcs5.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\pkcs7.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\platform.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\platform_time.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\platform_util.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\poly1305.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\private_access.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\psa_util.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ripemd160.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\rsa.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\sha1.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\sha256.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\sha3.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\sha512.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ssl.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ssl_cache.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ssl_ciphersuites.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ssl_cookie.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\ssl_ticket.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\threading.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\timing.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\version.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\x509.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\x509_crl.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\x509_crt.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\mbedtls\x509_csr.h</path>
+              </group>
+              <group name="psa">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_adjust_auto_enabled.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_adjust_config_key_pair_types.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_adjust_config_synonyms.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\build_info.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_builtin_composites.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_builtin_primitives.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_builtin_key_derivation.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_compat.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_config.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_driver_common.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_driver_contexts_composites.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_driver_contexts_key_derivation.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_driver_contexts_primitives.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_extra.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_legacy.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_platform.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_se_driver.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_sizes.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_struct.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_types.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\mbedtls\include\psa\crypto_values.h</path>
+              </group>
+            </group>
+          </group>
+          <group name="printf">
+            <group name="src">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\printf\src\iostream_printf.c</path>
+            </group>
+            <group name="inc">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\printf\inc\iostream_printf.h</path>
+            </group>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\printf\printf.c</path>
+            <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\printf\printf.h</path>
+          </group>
+          <group name="segger">
+            <group name="systemview">
+              <group name="SEGGER">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\segger\systemview\SEGGER\SEGGER_RTT.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\segger\systemview\SEGGER\SEGGER.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\third_party\segger\systemview\SEGGER\SEGGER_RTT.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="silicon_labs">
+          <group name="silabs_core">
+            <group name="memory_manager">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\silicon_labs\silabs_core\memory_manager\sl_malloc.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\silicon_labs\silabs_core\memory_manager\sl_malloc.h</path>
+            </group>
+            <group name="buffer_manager">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\silicon_labs\silabs_core\buffer_manager\legacy-packet-buffer.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\silicon_labs\silabs_core\buffer_manager\buffer-queue.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\silicon_labs\silabs_core\buffer_manager\buffer-management.h</path>
+            </group>
+            <group name="event_queue">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\util\silicon_labs\silabs_core\event_queue\event-queue.h</path>
+            </group>
+          </group>
+        </group>
+      </group>
+      <group name="protocol">
+        <group name="zigbee">
+          <group name="app">
+            <group name="framework">
+              <group name="common">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\common\zigbee_app_framework_common.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\common\zigbee_app_framework_stack_cb.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\common\zigbee_app_framework_sleep.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\common\zigbee_app_framework_common.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\common\zigbee_app_framework_event.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\common\zigbee_app_framework_callback.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\common\zigbee_enhanced_routing.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\common\zigbee_ncp_framework_cb.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\common\zigbee_token_interface.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\common\zigbee_token_interface_stub.c</path>
+              </group>
+              <group name="plugin">
+                <group name="debug-print">
+                  <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\plugin\debug-print\sl_zigbee_debug_print.c</path>
+                  <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\plugin\debug-print\sl_zigbee_debug_print.h</path>
+                </group>
+              </group>
+              <group name="util">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\framework\util\af-ncp-token.h</path>
+              </group>
+            </group>
+            <group name="util">
+              <group name="security">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\util\security\security-address-cache.c</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\util\security\security.h</path>
+              </group>
+              <group name="ezsp">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\util\ezsp\ezsp-protocol.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\util\ezsp\ezsp-enum.h</path>
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\util\ezsp\ezsp-frame-utilities.h</path>
+              </group>
+            </group>
+            <group name="em260">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-green-power-generated.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-mfglib-generated.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\em260-common.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\serial-interface-uart.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\ncp-stack-stub.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-context.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\serial-interface.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\em260-callbacks.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-cbke.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-mfglib.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-binding-generated.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-messaging-generated.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-networking-generated.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-security-generated.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-trust-center-generated.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-zll.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-binding.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-security.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-zigbee-pro.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-token-interface-generated.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-token-interface.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\em260\command-handlers-zll-generated.c</path>
+            </group>
+            <group name="xncp">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\xncp\xncp.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\xncp\xncp_cb.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\xncp\xncp-token.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\xncp\xncp-sample-custom-ezsp-protocol.h</path>
+            </group>
+            <group name="ncp">
+              <group name="plugin">
+                <group name="xncp">
+                  <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\app\ncp\plugin\xncp\xncp.h</path>
+                </group>
+              </group>
+            </group>
+          </group>
+          <group name="stack">
+            <group name="security">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\security\zigbee-security-manager-no-vault.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\security\zigbee-security-manager.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\security\zigbee-security-manager-internal.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\security\zigbee-security-manager-vault-support.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\security\cbke-crypto-engine-stub.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\security\cbke-crypto-engine-163k1-stub.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\security\cbke-crypto-engine-283k1-stub.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\security\cbke-crypto-engine-dsa-verify-stub.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\security\cbke-crypto-engine-dsa-sign-stub.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\security\cbke-crypto-engine-dsa-verify-283k1-stub.c</path>
+            </group>
+            <group name="framework">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\framework\aes-ecb.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\framework\zigbee_debug_channel.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\framework\zigbee-debug-extended.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\framework\zigbee-event-logger-stub-gen.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\framework\strong-random-api.c</path>
+            </group>
+            <group name="platform">
+              <group name="micro">
+                <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\platform\micro\aes.h</path>
+              </group>
+            </group>
+            <group name="include">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\gp-types.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\mfglib.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\security.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\zigbee-security-manager.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\zigbee-security-manager-types.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\aes-mmo.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\source-route.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\ember-types.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\zll-types.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\ember-types-internal.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\ember.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\ember-debug.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\error-def.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\error.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\child.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\ember-alternate-mac.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\ember-duty-cycle.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\message.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\multi-network.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\multi-phy.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\network-formation.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\stack-info.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\trust-center.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\zigbee-device-stack.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\raw-message.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\byte-utilities.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\ember-random-api.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\library.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\mac-layer.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\bootload.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\cbke-crypto-engine.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\zigbee-event-logger-gen.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\zll-api.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\binding-table.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\sl_zigbee_address_info.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\sl_zigbee_tlv_core.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\include\sl_zigbee_dynamic_commissioning.h</path>
+            </group>
+            <group name="gp">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\gp\gp-token-config.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\gp\gp-proxy-table.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\gp\gp-sink-table.h</path>
+            </group>
+            <group name="zigbee">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\zigbee\aps-keys-full.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\zigbee\aps-keys-full.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\zigbee\sli_zigbee_zdo_cluster_filter.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\zigbee\source-route-table-update.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\zigbee\sli_zigbee_zdo_cluster_filter.c</path>
+            </group>
+            <group name="config">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\config\ember-configuration.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\config\ember-configuration-access.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\config\config.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\config\token-stack.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\config\token-phy.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\config\ember-configuration-defaults.h</path>
+            </group>
+            <group name="core">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\core\ember-multi-network-stub.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\core\multi-pan-stub.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\core\multi-pan-common.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\core\ember-multi-network.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\core\multi-pan-token-config.h</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\core\multi-pan.h</path>
+            </group>
+            <group name="stubs">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\stubs\sl_zigbee_dynamic_commissioning_stubs.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\stubs\sl_zigbee_r23_misc_support_stubs.c</path>
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\stubs\sl_zigbee_fragmentation_stubs.c</path>
+            </group>
+            <group name="zll">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\zll\zll-token-config.h</path>
+            </group>
+            <group name="mac">
+              <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\stack\mac\multi-mac.h</path>
+            </group>
+          </group>
+          <group name="build">
+            <group name="iar">
+              <group name="cortex-m4">
+                <group name="zigbee-debug-basic">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\zigbee-debug-basic\release_singlenetwork\libzigbee-debug-basic.a</path>
+                  </group>
+                </group>
+                <group name="zigbee-debug-extended">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\zigbee-debug-extended\release_singlenetwork\libzigbee-debug-extended.a</path>
+                  </group>
+                </group>
+                <group name="ncp-gp-library">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\ncp-gp-library\release_singlenetwork\libncp-gp-library.a</path>
+                  </group>
+                </group>
+                <group name="zigbee-gp">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\zigbee-gp\release_singlenetwork\libzigbee-gp.a</path>
+                  </group>
+                </group>
+                <group name="ncp-mfglib-library">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\ncp-mfglib-library\release_singlenetwork\libncp-mfglib-library.a</path>
+                  </group>
+                </group>
+                <group name="zigbee-mfglib">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\zigbee-mfglib\release_singlenetwork\libzigbee-mfglib.a</path>
+                  </group>
+                </group>
+                <group name="zigbee-ncp-uart">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\zigbee-ncp-uart\release_singlenetwork\libzigbee-ncp-uart.a</path>
+                  </group>
+                </group>
+                <group name="ncp-pro-library">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\ncp-pro-library\release_singlenetwork\libncp-pro-library.a</path>
+                  </group>
+                </group>
+                <group name="zigbee-pro-stack">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\zigbee-pro-stack\release_singlenetwork\libzigbee-pro-stack.a</path>
+                  </group>
+                </group>
+                <group name="zigbee-r22-support">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\zigbee-r22-support\release_singlenetwork\libzigbee-r22-support.a</path>
+                  </group>
+                </group>
+                <group name="ncp-source-route-library">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\ncp-source-route-library\release_singlenetwork\libncp-source-route-library.a</path>
+                  </group>
+                </group>
+                <group name="zigbee-source-route">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\zigbee-source-route\release_singlenetwork\libzigbee-source-route.a</path>
+                  </group>
+                </group>
+                <group name="zigbee-xncp">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\zigbee-xncp\release_singlenetwork\libzigbee-xncp.a</path>
+                  </group>
+                </group>
+                <group name="ncp-zll-library">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\ncp-zll-library\release_singlenetwork\libncp-zll-library.a</path>
+                  </group>
+                </group>
+                <group name="zigbee-zll">
+                  <group name="release_singlenetwork">
+                    <path>C:\SiliconLabs\SimplicityStudio\v5\offline\sdk\gecko_sdk_4.4.6\protocol\zigbee\build\iar\cortex-m4\zigbee-zll\release_singlenetwork\libzigbee-zll.a</path>
+                  </group>
+                </group>
+              </group>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <path>main.c</path>
+    <path>app.c</path>
+  </files>
+  <SimplicityStudioMetadata>
+    <metadata>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</metadata>
+  </SimplicityStudioMetadata>
+</iarProjectConnection>
