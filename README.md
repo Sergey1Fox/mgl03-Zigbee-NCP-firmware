@@ -13,3 +13,4 @@ Zigbee chip EFR32MG1B232F256GM32
 | Flow control         |  None                 |
 | TX_Pin               |  PA0                  |
 | RX_Pin               |  PA1                  |
+
