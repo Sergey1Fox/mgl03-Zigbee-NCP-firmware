@@ -19,7 +19,7 @@ UART Settings
 
 ## Flash procedure
 
-Windows. TeraTerm. AlexT/XiaomiGateway3. Gateway must have openned SSH.
+Windows. [TeraTerm](https://teratermproject.github.io/). [AlexT/XiaomiGateway3](https://github.com/AlexxIT/XiaomiGateway3). Gateway must have openned SSH.
 1. Connet to mgl03 by SSH
 2. SSH: killall openiimo_agent
 3. SSH: zigbee_inter_bootloader.sh 0; zigbee_reset.sh 0; zigbee_reset.sh 1; /data/openmiio_agent --zigbee.tcp=8889 --zigbee.baud=115200;
