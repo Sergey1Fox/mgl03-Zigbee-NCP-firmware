@@ -27,8 +27,8 @@ Windows. [TeraTerm](https://teratermproject.github.io/). [AlexT/XiaomiGateway3](
 5. SSH: zigbee_inter_bootloader.sh 0; zigbee_reset.sh 0; zigbee_reset.sh 1; to get Gecko bootloader menu
 6. TeraTerm shows bootloader menu. Press 1 and ENTER
 7. TeraTerm shows "CCCC" symbols. Select File->Transfer->XMODEM->Send... [select gbl file][1]
-8. SSH: zigbee_inter_bootloader.sh 0; zigbee_reset.sh 0; zigbee_reset.sh 1; to run NCP
-9. SSH: /data/openmiio_agent miio mqtt cache central z3 --zigbee.tcp=8888
+8. SSH: zigbee_inter_bootloader.sh 1; zigbee_reset.sh 0; zigbee_reset.sh 1; to run NCP
+9. SSH: /data/openmiio_agent miio mqtt cache central z3 --zigbee.tcp=8888 &
 10. Switch HASS Z2M addon to "ember" protocol
 
 [1]: https://github.com/Sergey1Fox/mgl03-Zigbee-NCP-firmware/blob/main/ewarm-iar/exe/zigbee_ncp.gbl
